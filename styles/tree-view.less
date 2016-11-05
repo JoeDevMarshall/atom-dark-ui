@@ -5,7 +5,7 @@
   background: @tree-view-background-color;
 
   .selected:before {
-    background: #444;
+    background: @tree-view-selected-bg; //was hardcoded with #444;
     box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
   }
 }
@@ -21,10 +21,10 @@
   box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
 
   &:focus {
-    background: #282828;
+    background: @sidebar; // was hardcoded with #282828;
 
     .selected:before {
-      background: @background-color-selected;
+      background: @sidebar-focus; // was @background-color-selected;
     }
   }
 }

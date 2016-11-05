@@ -1,7 +1,10 @@
+// change on line 53
+
+
 @import "ui-variables";
-@tab-radius: 3px;
+@tab-radius: 10px; //3px;
 @modified-icon-width: 8px;
-@tab-skew: 30deg;
+@tab-skew: 24deg; //30deg;
 @tab-top-padding: 5px;
 @tab-bottom-border-height: 5px;
 @tab-border: 1px solid @tab-border-color;
@@ -47,7 +50,7 @@
     border: none;
 
     &, &:before, &:after {
-      background-image: -webkit-linear-gradient(top, lighten(#333, 7%), #333);
+      background-image: -webkit-linear-gradient(top, lighten(@tab-default-bg, 7%), @tab-default-bg); //was coded as -webkit-linear-gradient(top, lighten(#333, 7%), #333);
       height: @tab-height;
     }
 
