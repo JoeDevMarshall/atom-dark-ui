@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "UI theme inspired by HBO's Westworld series that pairs nicely with the Syntax theme have-violent-ends-syntax",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/JoeDevMarshall/these-violent-delights-ui.git",
   "engines": {
     "atom": ">0.40.0"
   }
